@@ -1,0 +1,92 @@
+body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.widget-container {
+    background-color: #1a1a4a;
+    width: 380px;
+    padding: 25px;
+    border: 1.5px solid #2b517a;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.widget-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header-icon {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 12px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-header h2 {
+    font-size: 22px;
+    margin: 0;
+    color: #000000;
+    font-weight: 800;
+}
+
+.stats-card {
+    background-color: #0d1511;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#member-number {
+    font-size: 56px;
+    font-weight: 700;
+    color: #b5ccba;
+    font-family: Georgia, serif;
+}
+
+.progress-bar-container {
+    background-color: #1a2b25;
+    height: 12px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #55efc4;
+    height: 100%;
+    border-radius: 10px;
+    transition: width 1s ease-out;
+}
+
+.new-members-section {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(85, 239, 196, 0.1);
+}
+
+.section-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #55efc4;
+    font-weight: 600;
+}
+
+.member-username {
+    font-weight: bold;
+    color: #ffffff;
+}
