@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Count Widget</title>
+    <link rel="stylesheet" href="member_count.css">
+</head>
+<body>
+    <div class="widget-container">
+        <header class="widget-header">
+            <span class="header-icon">📈</span>
+            <h2>Member Count</h2>
+        </header>
+
+        <div class="stats-card">
+            <div class="current-count">
+                <span id="member-number">3,616</span>
+                <span class="label">Members</span>
+            </div>
+
+            <div class="progress-section">
+                <div class="progress-info">
+                    <span class="progress-label">Progress</span>
+                    <span class="progress-range">
+                        <span id="min-range">3,500</span> 
+                        <span class="arrow">→</span> 
+                        <span id="max-range" class="target">4,000</span>
+                    </span>
+                </div>
+                
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+
+                <div class="range-labels">
+                    <span id="min-label">3,500</span>
+                    <span id="max-label">4,000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-members-section">
+            <header class="section-header">
+                <span class="fire-icon">🔥</span>
+                <h3>New Legends</h3>
+            </header>
+            <div id="new-members-list" class="members-list">
+                <div class="loading-small">Loading new members...</div>
+            </div>
+        </div>
+    </div>
+    <script src="member_count.js"></script>
+</body>
+</html>
